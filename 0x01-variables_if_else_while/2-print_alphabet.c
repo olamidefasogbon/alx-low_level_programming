@@ -2,12 +2,12 @@
 /**
  * main - main function in this program
  *
- * Return: 0(Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	for(i = 'a' ; i <= 'z' ; i++)
+	for (int i = 'a' ; i <= 'z' ; i++)
 	putchar(i);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
