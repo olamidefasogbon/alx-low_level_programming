@@ -1,2 +1,5 @@
 #!/bin/bash
-gcc -S -masm=intel $CFILE
+CFILE="main.c"
+ASMFILE="${CFILE%.*}.s"
+
+gcc -S -masm=intel "$CFILE" -o "$ASMFILE"
