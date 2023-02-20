@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - returns a combination of number
  *
@@ -27,6 +26,7 @@ for (i = 0; i < 100; i++)
 			}
 		}
 	}
-	putchar('\n');
-	return (0);
+}
+putchar('\n');
+return (0);
 }
