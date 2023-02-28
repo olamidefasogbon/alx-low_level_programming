@@ -12,7 +12,7 @@
 * Return: day of year
 */
 
-/*int convert_day(int month, int day, int year)
+int convert_day(int month, int day, int year)
 {
 	int leap;
 	
@@ -57,7 +57,8 @@
 	}
 	return (day);
 }
-*/
+
+/*
 int convert_day(int month, int day, int year)
 {
     int i;
@@ -81,3 +82,4 @@ int convert_day(int month, int day, int year)
     }
     return (day);
 }
+*/
