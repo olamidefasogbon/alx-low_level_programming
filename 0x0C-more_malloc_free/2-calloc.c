@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * _calloc - ....
  * @nmemb: number of memory
@@ -8,7 +7,6 @@
  *
  * Return: ...
  */
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int i = 0, l = 0;
