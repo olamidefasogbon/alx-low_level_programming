@@ -1,7 +1,7 @@
 /*
- * File_name: 0-binary_to_uint.c
- * Date: 7th of April, 2023
  * Name: Olamide
+ * File: 0-binary_to_uint.c
+ * Date: 12th of April, 2023
  */
 
 #include "main.h"
